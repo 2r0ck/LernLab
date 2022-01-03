@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BuilderPattern;
+using System;
 
 namespace LernLab
 {
@@ -6,7 +7,7 @@ namespace LernLab
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new BuilderExecutor().Run();
         }
     }
 }
